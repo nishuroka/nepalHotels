@@ -1,0 +1,135 @@
+/* reset */
+body{
+    font-family: 'Fresca', sans-serif;
+}
+p, a{
+    font-family: 'Nunito', sans-serif;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+.reset-col{
+    padding: 0;
+}
+.reset-border{
+    border-radius: 0;
+    padding: 5px; 
+}
+.head-logo, .users-login, .users-login .login-btn{
+    display: initial;
+}
+.head-logo{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-right: 120px;
+    
+    /* text-transform: capitalize; */
+}
+.top{
+    background:  #dfa700;
+    color: #fff;
+    padding-bottom: 10px; 
+}
+.login-btn{
+    color: #383838;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 7px 10px;
+    display: inline;
+    border-radius: 3px;
+}
+.top .mini-menu{
+    padding-top: 10px;
+}
+.top ul li{
+    padding: 8px;
+    margin: 5px;
+}
+.mini-menu  .active{
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 3px;
+}
+
+/* search-bar */
+.search-bar{
+    background: #f7f7f7;
+    padding: 45px;
+}
+
+/* hotel-type */
+.hotel-type{
+    padding: 45px 0;
+}
+.hotel-type h3, #popular_destinations h3{
+    padding-bottom: 10px;
+}
+.hotel-type img{
+    border-radius:3px;
+    padding-bottom: 5px; 
+    width: 100%;
+    height: 9pc;
+    object-fit: cover;
+}
+
+
+#popular_destinations {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 115px;
+}
+#popular_destinations .c-box {
+    position: relative;
+}
+.img-fluid {
+    max-width: 100%;
+    /* height: 60%; */
+    height: 356px;
+    width: 100%;
+    object-fit: cover;
+}
+#popular_destinations .c-box article {
+    position: absolute;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px 20px;
+    transition: all 0.3s ease 0s;
+}
+#popular_destinations .c-box span {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#popular_destinations .c-box .v-a {
+    position: absolute;
+    bottom: -100px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    left: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#popular_destinations .c-box:hover article .v-a {
+    bottom: 12px;
+}
+
+.subscribe{
+    background-color: #5bcbda;
+    color: #fff;
+    padding:  40px 20px;
+    margin-bottom: 20px
+}
+
+
+footer{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0;
+}
