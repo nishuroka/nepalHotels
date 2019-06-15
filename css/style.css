@@ -2,12 +2,15 @@
 body{
     font-family: 'Fresca', sans-serif;
 }
-p, a{
+p, a, li{
     font-family: 'Nunito', sans-serif;
 }
 ul li{
     list-style: none;
     display: inline;
+}
+a{
+    text-decoration: none;
 }
 .reset-col{
     padding: 0;
@@ -31,6 +34,9 @@ ul li{
     background:  #dfa700;
     color: #fff;
     padding-bottom: 10px; 
+}
+.top a{
+    color: #fff;
 }
 .login-btn{
     color: #383838;
@@ -124,12 +130,66 @@ ul li{
     background-color: #5bcbda;
     color: #fff;
     padding:  40px 20px;
-    margin-bottom: 20px
+    margin-bottom: 0px;
+}
+.main-footer{
+    color: #fff;
+    background-color: #b0a5a5;
+    padding: 20px 0;
+}
+
+.foot{
+    color: #fff;
+    background-color: #615e5e;
+    padding: 20px 0;
 }
 
 
-footer{
+
+.main-footer a:hover{
+    background: #000;
     color: #fff;
-    background-color: #000;
-    padding: 20px 0;
+}
+.downloadButton {
+    background: #7f7f7f;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 7px 16px;
+    min-width: 160px;
+    max-width: 170px;
+    max-height: 52px;
+    overflow: hidden;
+    color: #fff;
+    transition: background .3s ease;
+    margin-right: 12px;
+    box-sizing: border-box;
+}
+.footerAppIcons__appIcon, .appText {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.footerAppIcons__appIcon {
+    height: 22px;
+    width: 22px;
+    margin-right: 6px;
+    fill: #fff;
+}
+.u-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.appStoreName {
+    font-size: 16px;
+    display: block;
+    color: #fff;
+}
+.findUs{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.findUs ul li, .find ul li{
+    display: block;
+    padding-bottom: 4px;
 }
