@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flights</title>
+
+    <!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+
+    <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="top pt-3">
+        <div class="container">
+            <div class="head-logo text-left">
+                Hotels Nepal
+            </div>
+            <div class="users-login float-right">
+                <div class="login-btn mr-3">
+                    Login
+                </div>
+                <div class="login-btn">
+                    Register
+                </div>
+            </div>
+            <div class="mini-menu">
+
+                <a href="index.html">Accomodations</a> >
+                <a href="flights.html">Rooms</a> >
+                <a href="flights.html">Room Details</a>
+
+
+            </div>
+            <!--mini-menu-->
+        </div>
+        <!--container-->
+    </div>
+    <!--top-->
+
+    <div class="mega-search">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-3 side-bar left-side-bar">
+
+                    <div class="side-bar-block filter-block">
+                        <h3>Sort By Filter</h3>
+                        <p>Find your dream flights today</p>
+
+                        <div class="panels-group">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a href="#panel-1" data-toggle="collapse" class="" aria-expanded="true">Select
+                                        Category <span><i class="fa fa-angle-down"></i></span></a>
+                                </div><!-- end panel-heading -->
+
+                                <div id="panel-1" class="panel-collapse collapse in" aria-expanded="true" style="">
+                                    <div class="panel-body text-left">
+                                        <ul class="list-unstyled">
+                                            <li class="custom-check"><input type="checkbox" id="check01"
+                                                    name="checkbox">
+                                                <label for="check01"><span><i class="fa fa-check"></i></span>All</label>
+                                            </li>
+                                            <li class="custom-check"><input type="checkbox" id="check02"
+                                                    name="checkbox">
+                                                <label for="check02"><span><i
+                                                            class="fa fa-check"></i></span>Apartment</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check03"
+                                                    name="checkbox">
+                                                <label for="check03"><span><i class="fa fa-check"></i></span>Bed &amp;
+                                                    Breakfast</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check04"
+                                                    name="checkbox">
+                                                <label for="check04"><span><i class="fa fa-check"></i></span>Guest
+                                                    House</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check05"
+                                                    name="checkbox">
+                                                <label for="check05"><span><i
+                                                            class="fa fa-check"></i></span>Hotels</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check06"
+                                                    name="checkbox">
+                                                <label for="check06"><span><i
+                                                            class="fa fa-check"></i></span>Residence</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check07"
+                                                    name="checkbox">
+                                                <label for="check07"><span><i
+                                                            class="fa fa-check"></i></span>Resorts</label></li>
+                                        </ul>
+                                    </div><!-- end panel-body -->
+                                </div><!-- end panel-collapse -->
+                            </div><!-- end panel-default -->
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a href="#panel-2" data-toggle="collapse" class=""
+                                        aria-expanded="true">Facility<span><i class="fa fa-angle-down"></i></span></a>
+                                </div><!-- end panel-heading -->
+
+                                <div id="panel-2" class="panel-collapse collapse in" aria-expanded="true" style="">
+                                    <div class="panel-body text-left">
+                                        <ul class="list-unstyled">
+                                            <li class="custom-check"><input type="checkbox" id="check08"
+                                                    name="checkbox">
+                                                <label for="check08"><span><i class="fa fa-check"></i></span>Air
+                                                    Conditioning</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check09"
+                                                    name="checkbox">
+                                                <label for="check09"><span><i
+                                                            class="fa fa-check"></i></span>Bathroom</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check10"
+                                                    name="checkbox">
+                                                <label for="check10"><span><i class="fa fa-check"></i></span>Cable
+                                                    Tv</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check11"
+                                                    name="checkbox">
+                                                <label for="check11"><span><i
+                                                            class="fa fa-check"></i></span>Parking</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check12"
+                                                    name="checkbox">
+                                                <label for="check12"><span><i
+                                                            class="fa fa-check"></i></span>Pool</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check13"
+                                                    name="checkbox">
+                                                <label for="check13"><span><i
+                                                            class="fa fa-check"></i></span>Wi-fi</label></li>
+                                        </ul>
+                                    </div><!-- end panel-body -->
+                                </div><!-- end panel-collapse -->
+                            </div><!-- end panel-default -->
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a href="#panel-3" data-toggle="collapse" class="" aria-expanded="true">Rating
+                                        <span><i class="fa fa-angle-down"></i></span></a>
+                                </div><!-- end panel-heading -->
+
+                                <div id="panel-3" class="panel-collapse collapse in" aria-expanded="true" style="">
+                                    <div class="panel-body text-left">
+                                        <ul class="list-unstyled">
+                                            <li class="custom-check"><input type="checkbox" id="check14"
+                                                    name="checkbox">
+                                                <label for="check14"><span><i class="fa fa-check"></i></span>1
+                                                    Star</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check15"
+                                                    name="checkbox">
+                                                <label for="check15"><span><i class="fa fa-check"></i></span>2
+                                                    Star</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check16"
+                                                    name="checkbox">
+                                                <label for="check16"><span><i class="fa fa-check"></i></span>3
+                                                    Star</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check17"
+                                                    name="checkbox">
+                                                <label for="check17"><span><i class="fa fa-check"></i></span>4
+                                                    Star</label></li>
+                                            <li class="custom-check"><input type="checkbox" id="check18"
+                                                    name="checkbox">
+                                                <label for="check18"><span><i class="fa fa-check"></i></span>5
+                                                    Star</label></li>
+                                        </ul>
+                                    </div><!-- end panel-body -->
+                                </div><!-- end panel-collapse -->
+                            </div><!-- end panel-default -->
+
+                        </div><!-- end panel-group -->
+
+                        <!-- <div class="price-slider">
+                                    <p><input type="text" id="amount" readonly=""></p>
+                                    <div id="slider-range" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 23.2%; width: 66.8%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 23.2%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 90%;"></span></div>
+                                </div> -->
+                        <!-- end price-slider -->
+                    </div><!-- end side-bar-block -->
+
+                    <div class="row">
+
+
+
+                        <div class="col-xs-12 col-sm-6 col-md-12">
+                            <div class="side-bar-block support-block">
+                                <h3>Need Help</h3>
+                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.
+                                    Veniam delectus ei vis. Est atqui timeam mnesarchum.</p>
+                                <div class="support-contact">
+                                    <span><i class="fa fa-phone"></i></span>
+                                    <p>+1 123 1234567</p>
+                                </div><!-- end support-contact -->
+                            </div><!-- end side-bar-block -->
+                        </div><!-- end columns -->
+
+                    </div><!-- end row -->
+               
+
+            </div><!-- end columns -->
+
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 content-side">
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-1.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-2.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-3.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-3.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-1.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="list-block main-block h-list-block">
+                    <div class="list-content">
+                        <div class="main-img list-img h-list-img">
+                            <a href="">
+                                <img src="images/hotel-2.jpg" class="img-responsive" alt="hotel-img">
+                            </a>
+                            <div class="main-mask">
+                                <ul class="list-unstyled list-inline offer-price-1">
+                                    <li class="price">$568.00<span class="divider">|</span><span
+                                            class="pkg">Avg/Night</span></li>
+                                    <li class="rating">
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star orange"></i></span>
+                                        <span><i class="fa fa-star lightgrey"></i></span>
+                                    </li>
+                                </ul>
+                            </div><!-- end main-mask -->
+                        </div><!-- end h-list-img -->
+
+                        <div class="list-info h-list-info">
+                            <h3 class="block-title"><a href="">Herta Berlin Hotel</a></h3>
+                            <p class="block-minor">From: Scotland</p>
+                            <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam
+                                delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                            <a href="" class="btn btn-orange btn-lg">View More</a>
+                        </div><!-- end h-list-info -->
+                    </div><!-- end list-content -->
+                </div><!-- end h-list-block -->
+
+                <div class="pages">
+                    <ol class="pagination">
+                        <li><a href="#" aria-label="Previous"><span aria-hidden="true"><i
+                                        class="fa fa-angle-left"></i></span></a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#" aria-label="Next"><span aria-hidden="true"><i
+                                        class="fa fa-angle-right"></i></span></a></li>
+                    </ol>
+                </div><!-- end pages -->
+            </div><!-- end columns -->
+
+        </div>
+        <!--row-->
+    </div>
+    <!--container-->
+    </div>
+    <!--mega-def-->
+
+
+
+
+
+    <footer>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 findUs">
+                        <p>Find us in Android and IOS</p>
+                        <a href="" target="" class="downloadButton">
+                            <i class="fab fa-apple"></i>
+                            <span class="appText u-text">Download on the
+                                <span class="appStoreName">App Store</span>
+                            </span>
+                        </a>
+                        <a href="" target="" class="downloadButton">
+                            <i class="fab fa-android"></i>
+                            <span class="appText u-text">GET IT ON
+                                <span class="appStoreName">Google Play</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-3 findUs">
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 find">
+                        <ul>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                            <li>Guest Policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--row-->
+            </div>
+            <!--container-->
+        </div>
+        <!--main-foot-->
+        <div class="foot">
+            <div class="container">
+                Copyright Protected.
+            </div>
+        </div>
+        <!--foot-->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
