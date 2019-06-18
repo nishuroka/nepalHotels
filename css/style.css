@@ -1,5 +1,5 @@
 /* reset */
-h3{
+h1, h2, h3{
     letter-spacing: 3px;
 }
 body{
@@ -200,10 +200,280 @@ a{
 
 
 /* room-detail */
-.mega-def{
-    width: 500px;
-    /* position: fixed; */
-    background: #7f7f7f;
+.side-bar .booking-map-block {
+    border: 1px solid #e6e7e8;
+}
+
+.side-bar .booking-map-block {
+    margin: 60px 0;
+}
+.side-bar .booking-map-block .selected-price {
+    background: #5bcbda;
+    color: white;
+}
+.side-bar .booking-map-block .selected-price {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 8px 23px 6px;
+}
+.side-bar .booking-map {
+    padding: 35px 23px 40px;
+}
+#single_tour_feat ul {
+    padding: 0;
+    margin: 0 0 30px;
+    display: table;
+    border-bottom: 2px solid #555;
+}
+#single_tour_feat ul li {
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 10px 20px;
+    white-space: nowrap;
+}
+#single_tour_feat ul li i {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 10px;
+}
+.content-side{
+    margin: 60px 0;
+}
+.hotel-img img{
+    width: 100%;
+    height: 367px;
+    object-fit: cover;
+}
+.hotel-img{
+    padding-bottom: 20px;
+}
+ul.list_ok {
+    margin: 0 0 20px;
+    padding: 0;
+    line-height: 22px;
+}
+ul.list_ok li {
+    position: relative;
+    padding-left: 25px;
+}
+ul.list_ok li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 14px;
+    content: "\f00c";
+    color: #e04f67;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+ul.list_icons {
+    margin: 0 0 20px;
+    padding: 0;
+}
+.room-img img{
+    width:100%;
+    height: 117px;
+    object-fit: cover;
+}
+.btn_1, a.btn_1 {
+    color: #fff;
+    background: #51bce6;
+    padding: 7px 20px;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+#score_detail {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#score_detail span {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #555;
+    line-height: 42px;
+    font-size: 14px;
+    color: #555;
+    margin-right: 5px;
+
+    text-align: center;
+}
+#score_detail span, .score span, a.btn_collapse {
+    display: inline-block;
+    font-weight: 700;
+}
+#score_detail small {
+    color: #999;
+}
+#rating_summary ul li .rating {
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+}
+.rating .voted {
+    color: #F90;
+}
+.review_strip_single {
+    position: relative;
+    padding: 30px 0 20px;
+    margin: 30px 0 25px;
+}
+
+ .review_strip_single {
+    border-bottom: 1px solid #ddd;
+}
+.review_strip_single img {
+    top: -15px;
+    position: absolute;
+    left: 0;
+    border: 4px solid #fff;
+}
+.review_strip_single small {
+    float: right;
+    font-size: 12px;
+    margin-top: -10px;
+    font-style: italic;
+}
+#single_tour_desc h4 {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.review_strip_single h4 {
+    font-size: 18px;
+    margin: -12px 0 35px 90px;
+    padding: 0;
+}
+.review_strip_single .rating {
+    font-size: 16px;
+}
+.review_strip_single.last {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.box_style_1{
+    margin-top: 70px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+.box_style_1 h3.inner {
+    margin: -30px -30px 20px;
+    background-color: #565a5c;
+    padding: 10px 20px 10px 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-top-left-radius: 3px;
+    text-align: center;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.form-control:disabled.booking_date, .form-control:disabled.booking_time, .form-control[readonly].booking_date, .form-control[readonly].booking_time {
+    background-color: #fff;
+    opacity: 1;
+}
+.numbers-row {
+    width: 97px;
+    overflow: visible;
+    position: relative;
+    height: 40px;
+}
+input.qty2 {
+    width: 35px;
+    border-radius: none;
+    left: 31px;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+.numbers-row, input.qty2 {
+    position: relative;
+    height: 40px;
+}
+.inc {
+    background: url(../images/plus.png) center center no-repeat #fff;
+    right: 0;
+    top: 0;
+    border: 1px solid #ccc;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.dec {
+    background: url(../images/minus.png) center center no-repeat #fff;
+    border: 1px solid #ccc;
+    left: 0;
+    top: 0;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.button_inc {
+    position: absolute;
+    width: 33px;
+    height: 40px;
+    z-index: 9;
+}
+.button_inc {
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.btn_full, a.btn_full {
+    border: none;
+    color: #fff;
+    width: 100%;
+    background: #85c99d;
+    padding: 12px 20px;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn_full, a.btn_full, a.btn_full_outline {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    outline: 0;
+}
+a.btn_full_outline {
+    color: #85c99d;
+    background: 0 0;
+    border: 2px solid #85c99d;
+    padding: 10px 20px;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 
@@ -571,4 +841,114 @@ a{
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd;
+}
+/* confirm-book */
+.margin_60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.add_bottom_30 {
+    margin-bottom: 30px;
+}
+.table.cart-list th, .table.options_cart th {
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.table td, .table th {
+    border-top: none;
+}
+.table.cart-list td, .table.options_cart td {
+    vertical-align: middle;
+}
+.thumb_cart {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+.thumb_cart img {
+    padding: 1px;
+    width: 58px;
+    height: auto;
+}
+.table.options_cart td i {
+    font-size: 38px;
+}
+.item_cart {
+    display: inline-block;
+    margin-top: 20px;
+}
+.switch-light {
+    display: block;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    overflow: visible;
+    padding: 0;
+    margin: auto;
+}
+.box_style_1 {
+    /* background: #fff; */
+    /* -webkit-border-radius: 3px; */
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 30px;
+    position: relative;
+    color: #666;
+}
+.box_style_4 {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+.box_style_4 {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.box_style_4:before {
+    border-bottom: 10px solid #ccc;
+    margin-bottom: 0;
+}
+.box_style_4:after, .box_style_4:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+}
+.box_style_2 i, .box_style_4 i {
+    font-size: 52px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.box_style_2 a.phone, .box_style_4 a.phone {
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+}
+.box_style_4:after {
+    border-bottom: 10px solid #fff;
+    margin-bottom: -1px;
+    z-index: 1;
+}
+.table.table_summary td {
+    border-top: 1px solid #ededed;
+    width: 50%;
+}
+.table.table_summary tr.total {
+    color: #e04f67;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
